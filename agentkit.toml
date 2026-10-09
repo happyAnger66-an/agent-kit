@@ -1,0 +1,10 @@
+# 最小配置：规范在本仓库，sync 只写本仓库。
+version = "0.1.0"
+
+[budget]
+always_on_tokens = 2000
+
+[[targets]]
+path = "."
+mode = "managed"
+profiles = ["product-dev"]

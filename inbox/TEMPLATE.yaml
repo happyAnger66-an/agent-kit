@@ -1,0 +1,7 @@
+symptom: ""        # 看到了什么现象
+root_cause: ""     # 根因
+fix: ""            # 正确做法
+evidence: ""       # 命令、数据、PR / commit 链接
+scope: ""          # org | profile:<name> | repo:<path>
+confidence: ""     # measured | inferred
+proposed_target: "" # field-note:<skill> | skill:<name> | standard:<id> | check:<lint/hook/ci>
