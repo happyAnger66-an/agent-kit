@@ -1,4 +1,4 @@
 # 自己从零开发的产品仓库（如 Orbit）：测试先行、回归测试、架构图。
 description = "自有产品仓库：测试先行 + 回归测试 + 架构图"
 extends = ["core"]
-standards = ["test-first", "bug-regression", "test-layout", "arch-diagrams"]
+standards = ["test-first", "bug-regression", "test-layout", "arch-diagrams", "synapsex-mlc-vla-boundary", "perf-profiler-ab", "perf-baseline-dual-track"]
