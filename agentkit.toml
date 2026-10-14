@@ -1,4 +1,4 @@
-# 最小配置：规范在本仓库，sync 只写本仓库。
+# LT5：规范在本仓；gr00t 优化相关仓接 product-dev。
 version = "0.1.0"
 
 [budget]
@@ -6,5 +6,35 @@ always_on_tokens = 2000
 
 [[targets]]
 path = "."
+mode = "managed"
+profiles = ["product-dev"]
+
+[[targets]]
+path = "/home/nio/codes/ai_infra/r-infra/AiInfraKB"
+mode = "managed"
+profiles = ["product-dev"]
+
+[[targets]]
+path = "/home/nio/codes/ai_infra/r-infra/projects/gr00t_optimize"
+mode = "managed"
+profiles = ["product-dev"]
+
+[[targets]]
+path = "/home/nio/codes/ai_infra/r-infra/mlc-vla"
+mode = "managed"
+profiles = ["product-dev"]
+
+[[targets]]
+path = "/home/nio/codes/ai_infra/r-infra/unirt"
+mode = "managed"
+profiles = ["product-dev"]
+
+[[targets]]
+path = "/home/nio/codes/ai_infra/r-infra/apexinfer"
+mode = "managed"
+profiles = ["product-dev"]
+
+[[targets]]
+path = "/home/nio/codes/ai_infra/r-infra/tvm-relax"
 mode = "managed"
 profiles = ["product-dev"]
