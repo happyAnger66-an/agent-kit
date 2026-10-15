@@ -20,5 +20,6 @@ python3 tools/agentkit.py sync --check
 - **synapsex-mlc-vla-boundary**（always）：公司级仓职责：通用 fused 核进 synapsex，DiT/模型 glue 只留 mlc-vla；勿混进上游 GR00T 或领域知识卡
 - **perf-profiler-ab**（always）：负向或未达预期的性能改动收工前，必须用 profiler（nsys/ncu 等）做 A/B，禁止只交 wall-clock
 - **perf-baseline-dual-track**（always）：抬全链路 baseline 必须交 stages+e2e 与 overall+per-dim；速度轨与精度轨分开，禁止只报 denoise
+- **atomic-commit**（always）：每完成一个原子功能单独提交一次 commit，message 写清做了什么
 
 <!-- agent-kit:end -->
